@@ -1,10 +1,12 @@
-# Turing-Machines
 Turing Machines 
 ---------------------------------
 
 A Turing Machine is a theortical machine of infinte memory. Invented by Alan Turing in 1936. 
 The main parts of a Turing Machine is a controller, a tape and a head. The machine changes its states and write on tape by following  transition rules. 
 To create a new Turing Machine:
+
+
+
 1. Create a Transitions array:
 Transition[] ts = new Transition[size];  
 where the size = no of states * no alphabet, each transition is in the form of (State , symbol on tape) ===> (Next state , write symbol on tape, head direction). 
